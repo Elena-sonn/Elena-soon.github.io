@@ -1,0 +1,21 @@
+#sliderr {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#sliderr .slidess {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#sliderr .slidee {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}

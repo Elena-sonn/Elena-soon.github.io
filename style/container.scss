@@ -1,0 +1,16 @@
+.container {
+    &.-pink {
+        background: linear-gradient(to top right, #debabe 30%, 
+        #dab2b3 30%, #dab2b3 40%, #c49094 40%, #c49094 100%);
+        padding-bottom: 235px; 
+    }
+    &.-white {
+        background: #fff;
+        text-align: center;
+        padding: 70px 0 70px 0;
+    }
+    &.-gray {
+        background: #f9f9f9;
+    }
+}
+

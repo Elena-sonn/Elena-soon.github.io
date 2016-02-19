@@ -1,0 +1,16 @@
+.header {
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+    &__title{
+        font-family: 'Lora', serif;
+        margin-top: 160px;
+        text-transform: $ttu;
+        font-size: 58px;
+    }
+    &__subtitle {
+        font-family: 'Lora', serif;
+        font-style: $fsi;
+        margin-top: 8px;
+    }
+}

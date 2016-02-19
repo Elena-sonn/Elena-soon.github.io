@@ -1,0 +1,32 @@
+.slogan {
+    &__date {
+        font-style: $fsi;
+        margin-top: 50px;
+        font-family: 'Lora', serif;
+    }
+    &__title {
+        margin-top: 25px;
+        font-size: 30px;
+        font-family: 'Lora', serif;
+        &:after{
+            content: " ";
+            display: block;
+            width: 19px;
+            margin: 10px auto 26px auto;
+            height: 9px;
+            border-bottom: 2px solid #000;
+            border-left: 1px solid #000;
+        }
+    }
+    &__under {
+        border-bottom: 2px solid #000;
+    }
+    &__text{
+        
+        font-family: 'Lora', serif;
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+}

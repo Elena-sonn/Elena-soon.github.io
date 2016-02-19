@@ -1,0 +1,23 @@
+.navigation {
+    &__top-line{
+        border: 1px solid #f2f2f2;
+        padding: 55px 0 60px 0;
+    }
+    &__title{
+        font-family: 'Lora', serif;
+        font-weight: bold;
+        &:after{
+            content: "";
+            display: block;
+            width: 17px;
+            height: 8px;
+            margin: 7px 0 8px 0;
+            border-top: 2px solid #000;
+            border-left: 1px solid #a7a7a7;
+        }
+    }
+    &__subtitle{
+        font-size: 9px;
+        color: #a9a9a9;
+    }
+}
